@@ -74,7 +74,7 @@
     <script>
         // Proporzioni predefinite degli ingredienti
         const defaultProportions = {
-            flour: 25,
+            flour: 30,
             yeast: 45,
             water: 22.5,
             salt: 750,
@@ -112,8 +112,8 @@
                     }
                 }
                 // Calcola le dosi di acqua solo se non è stato inserito l'ingrediente acqua direttamente
-                const water1 = (19 / 25 * proportions.flour).toFixed(2).replace(/\.?0+$/, '');
-                const water2 = (3.5 / 25 * proportions.flour).toFixed(2).replace(/\.?0+$/, '');
+                const water1 = (19 / 30 * proportions.flour).toFixed(2).replace(/\.?0+$/, '');
+                const water2 = (3.5 / 30 * proportions.flour).toFixed(2).replace(/\.?0+$/, '');
                 proportions['water1'] = water1;
                 proportions['water2'] = water2;
             }
